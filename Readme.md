@@ -35,7 +35,7 @@ Discord Token Grabber is a Chrome extension that captures Discord user tokens fr
     - Enable Developer Mode.
     - Click "Load unpacked" and select the directory containing the extension files.
 
-5. **Testing the Token Verification:
+5. **Testing the Token Verification:**
     After grabbing the token, run tokenverify.py to verify its validity using Discord’s API.
 
 
